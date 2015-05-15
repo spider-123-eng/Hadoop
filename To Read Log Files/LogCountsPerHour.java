@@ -46,7 +46,7 @@ public class LogCountsPerHour extends Configured implements Tool {
 		FileInputFormat.setInputPaths(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-		job.setJarByClass(PdfInputDriver.class);
+		job.setJarByClass(LogCountsPerHour.class);
 		
 		System.exit(job.waitForCompletion(true) ? 0 : 1);
         System.out.println("Job Finished!");
