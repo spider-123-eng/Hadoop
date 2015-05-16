@@ -1,6 +1,7 @@
 # Hadoop
-Hadoop Progaming 
+
 Guys,
+
 Here you will find lot of sample MapReduce programs to process different types of files like Text,PDF,CSV,Log etc..
 
 src\com\hadoop\mapReduce\trendfinder Folder :
