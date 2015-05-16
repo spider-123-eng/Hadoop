@@ -12,7 +12,7 @@ Here we are processing twitter data based on the occurence of the tweet.
 It contains a program to count the number of views on a per-hour basis on a particular web-site.  
 
 #src\com\hadoop\mapReduce\pdf Folder :
-It contains how write Custome FileInPutFormat,RecordReader classes in hadoop inorder to process PDF files .
+It contains how to write our own Custome FileInPutFormat,RecordReader classes in hadoop inorder to process PDF files .
 
 
 
