@@ -21,3 +21,6 @@ It contains how to write our own Custome FileInPutFormat,RecordReader classes in
 In this package you will find how to connect to HDFS from Java , Writting a file in to HDFS using Java and how to display the contents of the directory in HDFS from Java Programing .
 
 
+Thanks 
+Revanth Reddy 
+Reach me on : revanthkumar95@gmail.com
