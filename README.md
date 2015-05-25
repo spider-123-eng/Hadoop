@@ -4,6 +4,9 @@ Guys,
 
 Here you will find some sample MapReduce programs to process different types of files like Text,PDF,CSV,Log,XML,Doc/Docx,XLS/XLSX etc..
 
+You can also find a single programe which can read any kind of file types specified above .
+You can also find how to write custom Data Types and custom Partitioners in Map Reduce .
+
 #src\com\hadoop\mapReduce\trendfinder Folder :
 In trendfinder folder you will find how to work with multiple Mappers and Reducers .
 Here we are processing twitter data based on the occurence of the tweet. 
