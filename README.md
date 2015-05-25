@@ -17,7 +17,7 @@ It contains a program to count the number of views on a per-hour basis on a part
 #src\com\hadoop\mapReduce\pdf Folder :
 It contains how to write our own Custome FileInPutFormat,RecordReader classes in hadoop inorder to process PDF files .
 
-#src/com/hadoop/mapReduce/Java To HDFS Connection
+#src\com\hadoop\mapReduce\Java To HDFS Connection
 In this package you will find how to connect to HDFS from Java , Writting a file in to HDFS using Java and how to display the contents of the directory in HDFS from Java Programing .
 
 
