@@ -22,4 +22,4 @@ In this package you will find how to connect to HDFS from Java , Writting a file
 
 
 
-You can reach me for any suggestions/clarifications on  : revanthkumar95@gmail.com
+##You can reach me for any suggestions/clarifications on  : revanthkumar95@gmail.com
