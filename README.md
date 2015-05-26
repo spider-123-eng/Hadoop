@@ -20,7 +20,7 @@ It contains how to write our own Custome FileInPutFormat,RecordReader classes in
 #src\com\hadoop\mapReduce\Java To HDFS Connection
 In this package you will find how to connect to HDFS from Java , Writting a file in to HDFS using Java and how to display the contents of the directory in HDFS from Java Programing .
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 
 You can reach me for any suggestions/clarifications on  : revanthkumar95@gmail.com                                              
 Feel free to share any insights or constructive criticism. Cheers!!                                                           
