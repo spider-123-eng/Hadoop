@@ -1,4 +1,4 @@
-                          #Filtering out duplicate images using Map Reduce
+#Filtering out duplicate images using Map Reduce
                           
 Let's take a scenario where we have a collection of millions of image files, but in those collection only few thousands are unique images and others are duplicates.
 
@@ -11,7 +11,7 @@ Then follow the steps below in that sequence.
 
 Step 1: Convert the tar files into sequence files. Tar files can be converted into sequence file using the tar-to-seq tool provided here. 
 
-Here is the tar of images that you can use to run this example.
+If you have tar of images then run the following comment(You should tar-to-seq.jar file in your local system to convert .tar file in to .seq file).
 
 java -jar tar-to-seq.jar images.tar images.seq
 
