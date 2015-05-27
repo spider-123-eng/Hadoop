@@ -11,7 +11,7 @@ Then follow the steps below in that sequence.
 
 Step 1: Convert the tar files into sequence files. Tar files can be converted into sequence file using the tar-to-seq tool provided here. 
 
-If you have tar of images then run the following comment(You should tar-to-seq.jar file in your local system to convert .tar file in to .seq file).
+If you have tar of images then run the following command (You should have tar-to-seq.jar file in your local system to convert .tar file in to .seq file). I had attached the tar-to-seq.jar along with post ,You can download it and run the following command on windows cmd .
 
 java -jar tar-to-seq.jar images.tar images.seq
 
@@ -21,7 +21,7 @@ Step 3: Write map reduce algorithm
 
 The input to mapper will be file name as key and file content as value. All the duplicate images will have same content. So, if we spit out image content as value, all images with same content will be grouped together in the same reducers. And then in the reducer we can pick one file and filter out those images.
 
-The mapper, reduce and driver code is given below.
+The mapper, reduce and driver code is attached along with this post.
 
 
 
