@@ -49,8 +49,8 @@ Richa, Resend
 Command to run the jar file :     
 hadoop jar /home/cloudera/Downloads/ReducerJoin.jar com.hadoop.mapReduce.ReduceSideJoin.SmsDriver /user/cloudera/Joins_Input/Joins/UserDetails.txt /user/cloudera/Joins_Input/Joins/DeliveryDetails.txt /user/cloudera/Joins_Input/Joins/DeliveryStatusCodes.txt /user/cloudera/Joins_Out
 
-
-You can reach me for any suggestions/clarifications on : revanthkumar95@gmail.com
+----------------------------------------------------------------------------------------------------------------------------
+You can reach me for any suggestions/clarifications on : revanthkumar95@gmail.com      
 Feel free to share any insights or constructive criticism. Cheers!!
 
 Happy hadooping!
