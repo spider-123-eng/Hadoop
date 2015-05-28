@@ -1,4 +1,4 @@
-HI,
+Hi Guys,
 
 Now i am writing java code for reduce side join with 3 input files, which i place 1 file in distributed cache to join.
 
@@ -14,13 +14,13 @@ Step3:
 
 In SmsReducer.java file i am joining the two files that processesd from the above 2 mappers and i placed DeliveryStatusCodes.txt in distributed cache as this is small file.Now i process all the 3 files to join and will get the below desired results.
 
-  Expected Output                                     
+   Expected Output                                     
 Jim, Delivered                                                          
 Tom, Pending                                                       
 Harry, Failed                              
 Richa, Resend                                      
 
-   Sample Inputs    
+  #Sample Inputs    
 
     File 1 – UserDetails.txt             
 123456, Jim     
@@ -45,3 +45,11 @@ Jim, Delivered
 Tom, Pending   
 Harry, Failed   
 Richa, Resend   
+
+Command to run the jar file :     
+hadoop jar /home/cloudera/Downloads/ReducerJoin.jar com.hadoop.mapReduce.ReduceSideJoin.SmsDriver /user/cloudera/Joins_Input/Joins/UserDetails.txt /user/cloudera/Joins_Input/Joins/DeliveryDetails.txt /user/cloudera/Joins_Input/Joins/DeliveryStatusCodes.txt /user/cloudera/Joins_Out
+
+
+
+
+
