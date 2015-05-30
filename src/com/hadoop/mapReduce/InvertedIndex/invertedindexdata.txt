@@ -1,0 +1,5 @@
+www.kohls.com,clothes,shoes,beauty,toys
+www.amazon.com,books,music,toys,ebooks,movies,computers
+www.ebay.com,auctions,cars,computers,books,antiques
+www.macys.com,shoes,clothes,toys,jeans,sweaters
+www.kroger.com,groceries
