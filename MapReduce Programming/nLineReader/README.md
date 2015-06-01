@@ -23,7 +23,7 @@ number of words
 
 The attached code, using the above example data, will produce
 
-map 10    
+map 10     
 
 I want the output to be  
 
