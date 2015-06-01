@@ -7,7 +7,7 @@ Here you will find some sample MapReduce programs to process different types of 
 You can also find a single programe which can read any kind of file types specified above .
 You can also find how to write custom Data Types and custom Partitioners in Map Reduce .
 
-#strendfinder Folder :
+#trendfinder Folder :
 In trendfinder folder you will find how to work with multiple Mappers and Reducers .
 Here we are processing twitter data based on the occurence of the tweet. 
 
