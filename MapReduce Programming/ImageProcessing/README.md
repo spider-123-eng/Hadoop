@@ -23,6 +23,7 @@ The input to mapper will be file name as key and file content as value. All the 
 
 The mapper, reduce and driver code is attached along with this post.
 
-
-
+-----------------------------------------------------------------------------------------------------------------------------
+You can reach me for any suggestions/clarifications on : revanthkumar95@gmail.com  
+Feel free to share any insights or constructive criticism. Cheers!!
 
