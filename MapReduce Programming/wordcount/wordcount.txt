@@ -1,0 +1,63 @@
+Apache Hive is a data warehouse infrastructure built on top of Hadoop for providing data summarization, query, and analysis.
+Apache Pig is a platform for analysing large data sets. Pig's language is a simple query algebra that lets you express data 
+transformations such as merging data sets, filtering them, and applying functions to records or groups of records. 
+Users can create their own functions to do special-purpose processing.Hadoop is the Elephant King!
+A yellow and elegant thing.
+He never forgets
+Useful data, or lets
+An extraneous element cling!
+A wonderful king is Hadoop.
+The elephant plays well with Sqoop.
+But what helps him to thrive
+Are Impala, and Hive,
+And HDFS in the group.
+Hadoop is an elegant fellow.
+An elephant gentle and mellow.
+He never gets mad,
+Or does anything bad,
+Because, at his core, he is yellow.
+Hadoop is the Elephant King!
+A yellow and elegant thing.
+He never forgets
+Useful data, or lets
+An extraneous element cling!
+A wonderful king is Hadoop.
+The elephant plays well with Sqoop.
+But what helps him to thrive
+Are Impala, and Hive,
+And HDFS in the group.
+Hadoop is an elegant fellow.
+An elephant gentle and mellow.
+He never gets mad,
+Or does anything bad,
+Because, at his core, he is yellow.
+Hadoop is the Elephant King!
+A yellow and elegant thing.
+He never forgets
+Useful data, or lets
+An extraneous element cling!
+A wonderful king is Hadoop.
+The elephant plays well with Sqoop.
+But what helps him to thrive
+Are Impala, and Hive,
+And HDFS in the group.
+Hadoop is an elegant fellow.
+An elephant gentle and mellow.
+He never gets mad,
+Or does anything bad,
+Because, at his core, he is yellow.
+Hadoop is the Elephant King!
+A yellow and elegant thing.
+He never forgets
+Useful data, or lets
+An extraneous element cling!
+A wonderful king is Hadoop.
+The elephant plays well with Sqoop.
+But what helps him to thrive
+Are Impala, and Hive,
+And HDFS in the group.
+Hadoop is an elegant fellow.
+An elephant gentle and mellow.
+He never gets mad,
+Or does anything bad,
+Because, at his core, he is yellow.
