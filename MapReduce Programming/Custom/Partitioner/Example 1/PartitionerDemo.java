@@ -26,7 +26,7 @@ public class PartitionerDemo extends Configured implements Tool {
 		public void map(LongWritable key,Text value,Context context) throws IOException, InterruptedException {
 			String[] words = value.toString().split(" ");
 			try{
-			context.write(new Text(words[2]),new Text(words[1]));
+			context.write(new Text(words[0]),new Text(words[1]));
 			}
 			catch(Exception e){
 				System.err.println(e);
