@@ -54,9 +54,9 @@ public class PartitionerDemo extends Configured implements Tool {
 		public int getPartition(Text key, Text value, int numReduceTasks){
 		if(numReduceTasks==0)
 			return 0;
-		if(key.equals(new Text("Cricket")) && !value.equals(new Text("India")))
+		if(key.equals(new Text("Cricket")))
 			return 0;
-		if(key.equals(new Text("Cricket")) && value.equals(new Text("India")))
+		if(key.equals(new Text("Football")))
 			return 1;
 		else
 			return 2;
