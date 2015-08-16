@@ -46,7 +46,7 @@ public class IP_URL_Bytes {
         public void reduce(Text key, Iterable<Text> values, Context context) throws IOException,
                 InterruptedException {
         	
-        	String URL = ""; int bytesData;
+        	String URL = ""; int bytesData;String duplicateURL = "";
         	for (Text val : values) {
         		
         		if(!map.containsKey(key.toString()))
@@ -65,8 +65,10 @@ public class IP_URL_Bytes {
         			bytesData = Integer.parseInt(bytes);
     			 }
         		
-        		requests.append(URL).append("\t");
-        		sum += bytesData;
+        	if(!URL.equalsIgnoreCase(duplicateURL)){
+			 requests.append(URL).append("\t");
+			 }
+        	sum += bytesData;
             }
         	result.set("Total Size : "  +sum + "\t"+"  URl's  : " +requests);
             context.write(key, result);
