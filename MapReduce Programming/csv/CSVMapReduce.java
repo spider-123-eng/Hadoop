@@ -56,7 +56,7 @@ public class CSVMapReduce extends Configured implements Tool {
 	}
 
 	public static void main(String[] args) throws Exception {
-		int res = ToolRunner.run(new Configuration(), new PdfInputDriver(),
+		int res = ToolRunner.run(new Configuration(), new CSVMapReduce(),
 				args);
 		System.exit(res);
 	}
@@ -81,7 +81,7 @@ public class CSVMapReduce extends Configured implements Tool {
 		FileInputFormat.setInputPaths(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 		
-		job.submit();
+		System.exit(job.waitForCompletion(true) ? 0 : 1);
         return 0;
 	}
 }
